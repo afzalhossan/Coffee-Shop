@@ -14,9 +14,10 @@ a:hover {
 }
 .banner{
 	position: relative;
-	background:url(image/banner1.png) ;
-	padding: 250px 0;
+	background: url(image/banner1.png);
+	padding: 230px 0;
 }
+
 .banner:before{
 	content: '';
 	display: block;
@@ -26,8 +27,8 @@ a:hover {
 	right: 0;
 	bottom: 0;
 	background: url(image/banner.png) no-repeat;
-	padding-bottom: 400px;
 }
+
 
 .welcome h1{
 
@@ -316,3 +317,23 @@ a:hover {
     padding-left: 20px;
 }
 
+.gallery{
+	padding: 20px 0 8px;
+
+}
+.gallery h5{
+	font-size: 60px;
+	font-family: sans-serif;
+	color: dark;
+	padding: 0px 600px;
+}
+
+@media only screen and (max-width: 991px) {	
+	.banner: before{
+		display: none;
+	}
+	.menu{
+		padding: 60px 0;
+	}
+	
+}
