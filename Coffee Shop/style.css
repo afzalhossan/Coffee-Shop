@@ -16,6 +16,7 @@ a:hover {
 	position: relative;
 	background: url(image/banner1.png);
 	padding: 230px 0;
+	height: 100vh;
 }
 
 .banner:before{
@@ -257,6 +258,7 @@ a:hover {
 	padding: 90px 0;
 	background: #000 url(image/MenuBackground.jpg) no-repeat;
 	background-size: 100% auto;
+	height: 100vh;
 }
 .menu:before{
 	content: '';
@@ -319,6 +321,7 @@ a:hover {
 
 .gallery{
 	padding: 20px 0 8px;
+	height: 100vh;
 
 }
 .gallery h5{
@@ -328,12 +331,3 @@ a:hover {
 	padding: 0px 600px;
 }
 
-@media only screen and (max-width: 991px) {	
-	.banner: before{
-		display: none;
-	}
-	.menu{
-		padding: 60px 0;
-	}
-	
-}
