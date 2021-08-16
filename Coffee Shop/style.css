@@ -321,12 +321,13 @@ a:hover {
 
 .gallery{
 	padding: 20px 0 8px;
+	background-color: black;
 
 }
 .gallery h5{
 	font-size: 60px;
 	font-family: sans-serif;
-	color: dark;
+	color: #7CFC00;
 	padding: 0px 600px;
 }
 
